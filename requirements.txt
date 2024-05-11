@@ -1,0 +1,8 @@
+Flask==2.3.3
+numpy==1.23.5
+opencv-contrib-python==4.9.0.80
+opencv-python-headless==4.9.0.80
+tensorflow==2.13.0
+tensorflow-estimator==2.13.0
+tensorflow-intel==2.13.0
+tensorflow-io-gcs-filesystem==0.31.0
