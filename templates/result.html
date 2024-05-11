@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style_result.css') }}">
+</head>
+<body>
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/video">Test</a>
+    </nav>
+    <h1>Result</h1>
+    <p>Cheat Seconds</p>
+    <ul>
+        {% for count in cheat_seconds %}
+            <li>{{ count }}</li>
+        {% endfor %}
+    </ul>
+    <p>Normal Seconds</p>
+    <ul>
+        {% for count in normal_seconds %}
+            <li>{{ count }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>

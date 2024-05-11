@@ -1,0 +1,32 @@
+body {
+    background-image: url('img/background.jpg'); 
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+#content {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+#sections {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
